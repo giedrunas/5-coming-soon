@@ -6,6 +6,9 @@ vertical-align: top;
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.bg-blue {
+    background-color: #03A9F5;
+}
 
 .container {
     display: inline-block;
@@ -45,7 +48,3 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             width: 600px;
             margin-left: calc((100% - 600px) / 2);
         }
-
-.bg-blue {
-    background-color: #03A9F5;
-}
