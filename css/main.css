@@ -56,6 +56,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         display: inline-block;
         width: 1000px;
         margin-left: calc((100% - 1000px) / 2);
+        margin-right: calc((100% - 1000px) / 2);
         
     }
         .left-column {
@@ -80,16 +81,71 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-size: 18px;
                 margin-bottom: 15px;
             }
+    footer.container {
+        text-align: center;
+        padding-top: 0;
+        font-size: 18px;
+    }
         .socials {
             display: inline-block;
             width: 100%;
             border-bottom: 1px solid white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
         }
+            .socials > .fa {
+      
+                color: white;
+                text-decoration: none;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                margin: 5px;
+
+            }
+            .socials > .fa:hover {
+                background-color: white;
+                color: blue;
+            }
         .footer-texts {
             display: inline-block;
             width: 600px;
             margin-left: calc((100% - 600px) / 2);
+            margin-right: calc((100% - 600px) / 2);
+            color: #fff8;
+            
         }
+        .footer-texts > .logo {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .copyright {
+            display: inline-block;
+            /* width: 100%; */
+        }
+        .copyright > .texts {
+            display: inline-block;
+        
+
+        }
+        .copyright > .texts.borders {
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 1px solid #fff;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-top: none;
+            border-bottom: none;
+        }
+        .footer-texts > p {
+            display: inline-block;
+            width: 100%;
+        }
+            .footer-texts a {
+                display: inline-block;
+            }
         .bg-blue {
             background-color: #03A9F5;
         }
@@ -103,6 +159,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             .row {
                 width: 800px;
                 margin-left: calc((100% - 800px) / 2);
+                margin-right: calc((100% - 800px) / 2);
             }
         }
         
@@ -110,6 +167,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             .row {
                 width: 600px;
                 margin-left: calc((100% - 600px) / 2);
+                margin-right: calc((100% - 600px) / 2);
             }
                 .left-column {
                     width: 100%;
@@ -125,14 +183,22 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             .hero-row {
                 width: 400px;
                 margin-left: calc((100% - 400px) / 2);
+                margin-right: calc((100% - 400px) / 2);
             }
             .row {
                 width: 400px;
                 margin-left: calc((100% - 400px) / 2);
+                margin-right: calc((100% - 400px) / 2);
             }
             .footer-texts {
                 width: 400px;
                 margin-left: calc((100% - 400px) / 2);
+                margin-right: calc((100% - 400px) / 2);
+            }
+            .copyright > .texts,
+            .copyright > .texts.borders  {
+                width: 100%;
+                border: none;
             }
         }
         
